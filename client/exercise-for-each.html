@@ -1,0 +1,30 @@
+<!-- Ejercicio utilizando la función forEach
+Crea una lista de tareas, a partir de un array que contenga el título y el estado (completado o no) y muéstralos en un archivo HTML. Puedes utilizar un input de tipo checkbox para indicar el estado de la tarea.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <div id="tasks">
+      <h1>Lista de tareas</h1>
+   </div>
+   <script>
+      const taskList = [
+         {task: "Ordenar escritorio", status: "Completado"},
+         {task: "Realizar apuntes", status: "Pendiente"},
+         {task: "Iniciar curso Arrays", status: "Completado"},
+         {task: "Practicar con ejercicios JS", status: "Completado"},
+      ];
+      const tasks = document.getElementById("tasks");
+      taskList.forEach(taskList => {
+         tasks.innerHTML += `<li>${taskList.task} - ${taskList.status}  <input type="checkbox"></li>`
+      } )
+
+   </script>
+
+</body>
+</html>
