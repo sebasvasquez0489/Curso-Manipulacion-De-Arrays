@@ -8,5 +8,5 @@ for (let index = 0; index < letters.length; index++) {
   console.log("For", element);
 }
 
-// Recorremos el Array con el metodo "forEach" ***//
+// Recorremos el Array con el metodo "forEach" y utilzamos una arrow function. ***//
 letters.forEach((item) => console.log("ForEach", item));
