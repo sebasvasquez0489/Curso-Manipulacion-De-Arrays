@@ -1,5 +1,5 @@
 
-//*** Metodo "Every". Este metodo evalua si todos cumplen con la condicón. ***// 
+//*** Metodo "Every". Este metodo evalua si todos cumplen con la condicón. Y devolvera TRUE o FALSE ***// 
 // Dado un array de numeros validar si todos son menores a 40.
 
 const numbers = [1,30,25,29,35,13];
